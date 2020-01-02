@@ -1,3 +1,5 @@
 # Introducing sys module
 import sys
-print("System verion is {}".format(sys.version))
+print("System version is {}".format(sys.version))
+# Since we're testing on windows
+print(sys.getwindowsversion)
