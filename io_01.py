@@ -10,3 +10,5 @@ if (a%2)==0:
 else:
    print("Odd")
 # END
+# Alternate method for accepting input while giving a hint is a = input("Whatever text you want")\
+# and skip the print statement preceding it 
