@@ -7,3 +7,5 @@ print("System version is {}".format(sys.version))
 sys.stderr.write('This is stderr test\n')
 sys.stderr.flush()
 sys.stdout.write('This is stdout test\n')
+# To get file path , use sys.argv
+print(sys.argv)
